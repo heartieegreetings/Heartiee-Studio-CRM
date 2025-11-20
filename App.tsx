@@ -1,4 +1,4 @@
-//import { db } from "./firebase";
+import { db } from "./firebase";
 import React, { useState, useEffect, useRef } from 'react';
 import { NAV_ITEMS, INITIAL_LEADS, INITIAL_RESOURCES, PLATFORM_ICONS } from './constants';
 import { Lead, LeadStatus, Estimate, User, UserRole, Resource, Platform } from './types';
