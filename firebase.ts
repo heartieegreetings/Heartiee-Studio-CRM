@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyDHRoPHJE9U_P4xMPvTX2qdjdO6xIfz7dg",
+  authDomain: "heartiee-studio-crm.firebaseapp.com",
+  projectId: "heartiee-studio-crm",
+  storageBucket: "heartiee-studio-crm.firebasestorage.app",
+  messagingSenderId: "165091777642",
+  appId: "1:165091777642:web:45ff35b6d74b6c6728fe13"
 };
 
 const app = initializeApp(firebaseConfig);
